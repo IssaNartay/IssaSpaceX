@@ -1,0 +1,881 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Brandon Grotesque", "brandon-grotesque", Helvetica, sans-serif;
+}
+/*INDEX.HTML*/
+.main {
+  width: 100%;
+  height: 4300px;
+  background: white;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+}
+
+.topnav {
+  height: 70px;
+  padding: 10px;
+  background: black;
+}
+
+.topnav img {
+  width: 200px;
+  height: 30px;
+  margin-left: 100px;
+  margin-top: 10px;
+}
+
+.topnav a {
+  color: white;
+  text-decoration: none;
+  margin: 0px 20px 0px 20px;
+  font-weight: bold;
+}
+.dropbtn {
+  background-color: black;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+
+
+.mainimages{
+  width: 100%;
+  height: 1350px;
+  float: left;
+  background: black;
+}
+
+.mainimages img{
+  width: 683px;
+  height: 450px;
+  transition: 0.7s;
+}
+
+.mainimages img:hover{
+  opacity: 0.5;
+  transition: 0.7s;
+}
+
+.mainimages p{
+  color: #ddd;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.mainimages h3{
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 30px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.mainupdates1{
+  width: 100%;
+  height: 600px;
+  float: left;
+  margin-top: 150px;
+}
+.mainupdates2{
+  width: 100%;
+  height: 750px;
+  float: left;
+  margin-top: 20px;
+}
+
+.updates1{
+  width: 45%;
+  height: 600px;
+  float: left;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  background: black;
+}
+
+.updates2{
+  width: 45%;
+  height: 600px;
+  float: left;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  background: black;
+}
+
+.updates3{
+  width: 45%;
+  height: 600px;
+  float: left;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  background: black;
+}
+
+.updates4{
+  width: 45%;
+  height: 600px;
+  float: left;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  background: black;
+}
+
+
+
+
+.main2{
+  width: 100%;
+  height: 800px;
+  background-image: url(http://www.nasa.gov/sites/default/files/thumbnails/image/for_press_release.jpg);
+  background-size: cover;
+  float: left;
+}
+
+.mission{
+  width: 450px;
+  height: 300px;
+  margin: 400px 0px 0px 100px;
+}
+
+.mission h1{
+  color: #ffffff;
+  margin: 0px 0px 50px 0px;
+}
+
+.mission a{
+  padding: 15px;
+  margin: 0px 0px 0px 0px;
+  color: #ffffff;
+  border: #ffffff 2px solid;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.mission a:hover{
+  color: #000;
+  background: #ffffff;
+  transition: 0.5s;
+}
+
+
+.astronauts{
+  width: 100%;
+  height: 470px;
+  float: left;
+  background: black;
+}
+
+.astronauts .astro1{
+  width: 25%;
+  float: left;
+}
+.astronauts .astro2{
+  width: 25%;
+  float: left;
+}
+
+.astronauts .astro3{
+  width: 25%;
+  float: left;
+}
+
+.astronauts .astro4{
+  width: 25%;
+  float: left;
+}
+
+
+.astronauts img{
+  width: 340px;
+  height: 430px;
+}
+
+.astronauts h4{
+  color: white;
+  margin-top: 10px;
+}
+
+
+
+
+
+.astronomical{
+  width: 100%;
+  height: 600px;
+  float: left;
+}
+
+.astronomical .astroimg{
+  width: 60%;
+  height: 600px;
+  float: left;
+}
+
+.astroimg img{
+  width: 100%;
+  height: 600px;
+}
+
+.astronomical .astrotext{
+  width: 40%;
+  height: 600px;
+  float: left;
+}
+
+.astrotext{
+  background: black;
+}
+
+.astrotext h1{
+  color: #ffffff;
+  margin-top: 130px;
+  font-size: 40px;
+}
+
+.astrotext p{
+  color: #ffffff;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.astrotext a{
+  padding: 15px;
+  margin: 0px 0px 0px 0px;
+  color: #ffffff;
+  border: #ffffff 2px solid;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.astrotext a:hover{
+  color: #000;
+  background: #ffffff;
+  transition: 0.5s;
+}
+
+
+
+
+.mars{
+  width: 100%;
+  height: 800px;
+  float: left;
+  background: black;
+}
+
+.marstext{
+  width: 35%;
+  height: 600px;
+  float: left;
+  margin-left: 5%;
+  margin-top: 300px;
+}
+.marstext h1{
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+
+.marstext p{
+  color: #ffffff;
+  margin-bottom: 50px;
+}
+
+.marsimg{
+  width: 50%;
+  height: 600px;
+  float: left;
+  margin-right: 2%;
+  margin-left: 8%;
+  margin-top: 50px;
+}
+.marsimg img{
+  width: 650px;
+  height: 650px;
+}
+
+
+
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  height: 260px;
+  background: rgb(8, 8, 8);
+  float: left;
+}
+
+.footimg{
+  margin-top: 70px;
+}
+
+.footer img{
+  width: 200px;
+  height: 30px;
+}
+
+.footcont{
+  margin-top: 50px;
+}
+
+.foottext{
+  margin-top: 50px;
+}
+
+.footresult{
+  margin-top: 50px;
+}
+
+
+.footer p{
+  color: #ffffff;
+  padding: 7px;
+}
+
+
+
+.subfooter{
+  width: 100%;
+  height: 150px;
+  background: rgb(8, 8, 8);
+  float: left;
+}
+
+.subfooter hr{
+  width: 1200px;
+  margin-left: 150px;
+  color: #ffffff;
+  padding: 0.5px;
+  background: #ffffff;
+}
+.subfootimg{
+  margin-top: 50px;
+  margin-left: 650px;
+}
+.subfootimg img{
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  transition: 0.5s;
+}
+
+.subfootimg img:hover{
+  opacity: 0.5;
+  transition: 0.5s;
+}
+.subfooter a{
+  text-decoration: none;
+}
+
+
+
+
+/*MISSION.HTML*/
+
+.inspiration{
+  width: 100%;
+  height: 1700px;
+  float: left;
+  background: black;
+}
+
+.insimage{
+  width: 55%;
+  height: 600px;
+  float: left;
+}
+
+.insimage img{
+  width: 800px;
+  height: 550px;
+  margin-top: 130px;
+  margin-left: 5%;
+}
+
+.instext{
+  width: 35%;
+  height: 600px;
+  float: left;
+  margin-top: 250px;
+  margin-left: 5%;
+}
+
+.instext h1{
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.instext h2{
+  color: #ffffff;
+  margin-bottom: 10px;
+
+}
+.instext p{
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.inssubtext{
+  width: 60%;
+  margin: 0px 20% 0px 20%;
+  height: 500px;
+  float: left;
+  background: black;
+}
+
+.inssubtext h1{
+  color: #ffffff;
+  font-size: 19px;
+}
+
+
+
+/*INSPIRATION.HTML*/
+
+.moonlanding{
+  width: 100%;
+  height: 1400px;
+  float: left;
+}
+
+.moonline{
+  width: 100%;
+  height: 700px;
+  float: left;
+  background: rgb(0, 0, 0);
+}
+
+.moonline h1{
+  color: #ffffff;
+  margin-top: 150px;
+  margin-left: 75px;
+  margin-bottom: 40px;
+  float: left;
+}
+.moonline p{
+  color: #ffffff;
+}
+
+.moonleft{
+  width: 45%;
+  float: left;
+  margin-left: 5%;
+}
+.moonright{
+  width: 45%;
+  float: left;
+  margin-left: 5%;
+}
+
+.moonimage{
+  width: 100%;
+  height: 900px;
+  float: left;
+}
+
+.moonimage img{
+  width: 100%;
+  height: 900px;
+}
+
+
+
+/*FALCON9.HTML*/
+
+
+.falcon9{
+  width: 100%;
+  float: left;
+}
+
+.falconimagehead{
+  float: left;
+  width: 100%;
+  height: 800px;
+}
+
+.falcon9image{
+  float: left;
+  width: 100%;
+  height: 800px;
+  position: absolute;
+}
+
+.falcon9image img{
+  width: 100%;
+  height: 800px;
+}
+
+.falcon9header{
+  float: left;
+  width: 500px;
+  height: 100px;
+  position: relative;
+  margin: 200px 0px 0px 800px;
+}
+.falcon9header h1{
+  color: #ffffff;
+  font-size: 70px;
+}
+.falcon9header h4{
+  color: #ffffff;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+
+.falcon9static{
+  width: 100%;
+  height: 200px;
+  float: left;
+  background: black;
+}
+
+.falcon9static h1{
+  font-size: 70px;
+  margin: 40px 0px 10px 170px;
+}
+.falcon9static h3{
+  font-size: 20px;
+  margin: 0px 0px 0px 120px;
+}
+
+.falcon9static1{
+  width: 30%;
+  float: left;
+  height: 400px;
+  color: #ffffff;
+  margin-left: 5%;
+}
+
+.falcon9static2{
+  width: 30%;
+  float: left;
+  height: 400px;
+  color: #ffffff;
+}
+
+.falcon9static3{
+  width: 30%;
+  float: left;
+  height: 400px;
+  color: #ffffff;
+  margin-right: 5%;
+}
+
+.falcon9info{
+  width: 100%;
+  height: 700px;
+  float: left;
+}
+
+.falcon9text{
+  width: 30%;
+  height: 700px;
+  float: left;
+  background: black;
+}
+
+.falcon9text h3{
+  color: #ffffff;
+  font-size: 20px;
+  margin: 150px 0px 0px 60px;
+}
+
+.falcon9img{
+  width: 70%;
+  height: 700px;
+  float: left;
+  background: black;
+}
+
+.falcon9img img{
+  width: 100%;
+  height: 600px;
+}
+
+.falcon9picture{
+  width: 100%;
+  height: 600px;
+  float: left;
+  background-image: url(https://www.ixbt.com/img/n1/news/2021/2/4/42025498972_8720104d8a_o.0_large.jpg);
+  background-size: cover;
+}
+
+/*DRAGON.HTML*/
+
+.dragon{
+  width: 100%;
+  float: left;
+}
+
+.dragonimagehead{
+  float: left;
+  width: 100%;
+  height: 800px;
+}
+
+.dragonimage{
+  float: left;
+  width: 100%;
+  height: 800px;
+  position: absolute;
+}
+
+.dragonimage img{
+  width: 100%;
+  height: 800px;
+}
+
+.dragonheader{
+  float: left;
+  width: 500px;
+  height: 100px;
+  position: relative;
+  margin: 300px 0px 0px 900px;
+}
+.dragonheader h1{
+  color: #ffffff;
+  font-size: 70px;
+}
+.dragonheader h4{
+  color: #ffffff;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+
+.dragonstatic{
+  width: 100%;
+  height: 200px;
+  float: left;
+  background: black;
+}
+
+.dragonstatic h1{
+  font-size: 70px;
+  margin: 40px 0px 10px 170px;
+}
+.dragonstatic h3{
+  font-size: 20px;
+  margin: 0px 0px 0px 120px;
+}
+
+.dragonstatic1{
+  width: 30%;
+  float: left;
+  height: 400px;
+  color: #ffffff;
+  margin-left: 5%;
+}
+
+.dragonstatic2{
+  width: 30%;
+  float: left;
+  height: 400px;
+  color: #ffffff;
+}
+
+.dragonstatic3{
+  width: 30%;
+  float: left;
+  height: 400px;
+  color: #ffffff;
+  margin-right: 5%;
+}
+
+.dragoninfo{
+  width: 100%;
+  height: 700px;
+  float: left;
+}
+
+.dragontext{
+  width: 40%;
+  height: 700px;
+  float: left;
+  background: black;
+}
+
+.dragontext h3{
+  color: #ffffff;
+  font-size: 20px;
+  margin: 150px 0px 0px 100px;
+}
+
+.dragonimg{
+  width: 60%;
+  height: 700px;
+  float: left;
+  background: black;
+}
+
+.dragonimg img{
+  width: 800px;
+  height: 500px;
+  margin-left: 100px;
+  margin-top: 70px;
+}
+
+.dragonpicture{
+  width: 100%;
+  height: 700px;
+  float: left;
+  background-image: url(https://habrastorage.org/getpro/habr/post_images/108/4c0/00f/1084c000fe401a27e76b5ef5865f77af.jpg);
+  background-size: cover;
+}
+
+/*STARSHIP.HTML*/
+
+.starshiphead{
+  width: 100%;
+  height: 800px;
+  background-image: url(https://habrastorage.org/webt/1d/rs/kh/1drskhiktcqxmryc4vkd2-pytxa.jpeg);
+  background-size: cover;
+  float: left;
+}
+
+.starshipheadimage{
+  width: 450px;
+  height: 300px;
+  margin: 400px 0px 0px 100px;
+}
+
+.starshipheadimage h1{
+  color: #ffffff;
+  margin: 0px 0px 50px 0px;
+}
+
+.starshipheadimage a{
+  padding: 15px;
+  margin: 0px 0px 0px 0px;
+  color: #ffffff;
+  border: #ffffff 2px solid;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.starshipheadimage a:hover{
+  color: #000;
+  background: white;
+  transition: 0.5s;
+}
+
+
+.starshipinfo{
+  width: 100%;
+  height: 800px;
+  float: left;
+}
+
+.starshiptext{
+  width: 50%;
+  height: 800px;
+  float: left;
+  background: black;
+}
+
+.starshiptext h3{
+  color: #ffffff;
+  font-size: 20px;
+  margin: 150px 0px 0px 100px;
+}
+
+.starshipimg{
+  width: 50%;
+  height: 800px;
+  float: left;
+  background: black;
+}
+
+.starshipimg img{
+  width: 500px;
+  height: 700px;
+  margin-left: 100px;
+  margin-top: 70px;
+}
+
+
+
+
+
+
+.starshipmars{
+  width: 100%;
+  height: 800px;
+  background-image: url(https://www.teslarati.com/wp-content/uploads/2019/10/Starship-2019-Mars-reentry-render-SpaceX-1-crop-2.jpg);
+  background-size: cover;
+  float: left;
+}
+
+.starshipmarsinfo{
+  width: 450px;
+  height: 300px;
+  margin: 300px 0px 0px 130px;
+}
+
+.starshipmarsinfo h1{
+  color: #ffffff;
+  margin: 0px 0px 30px 0px;
+}
+
+.starshipmarsinfo p{
+  color: #ffffff;
+  margin: 0px 0px 50px 0px;
+}
+
+.starshipmarsinfo a{
+  padding: 15px;
+  margin: 0px 0px 0px 0px;
+  color: #ffffff;
+  border: #ffffff 2px solid;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+.starshipmarsinfo a:hover{
+  color: #000;
+  background: white;
+  transition: 0.5s;
+}
